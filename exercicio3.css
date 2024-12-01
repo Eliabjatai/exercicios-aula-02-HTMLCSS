@@ -1,0 +1,41 @@
+:root{
+    --transition: 0.3s ease;
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    justify-items: center;
+    margin-bottom: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+tr, tr td{
+    text-align: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+
+}
+
+tbody td:hover{
+    background-color: rgb(192, 192, 192);
+    transition: var(--transition: 0.3s ease;);
+}
+
+.feriado{
+    background-color: crimson;
+}
+ 
+.aula{
+    background-color: chartreuse;
+}

@@ -1,0 +1,55 @@
+:root{
+  --transition: 0.3s ease;
+}
+*{
+  margin: 0;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(7, 129, 89);
+}
+
+table{
+border-collapse: collapse;
+box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);;
+border-radius: 8px;
+overflow: hidden;
+}
+thead{
+  background-color: aqua;
+}
+
+th{
+text-align: center;
+padding: 8px 17px;
+}
+
+tbody {
+  background-color: cornflowerblue;
+  color: rgb(9, 10, 10);
+}
+tr{
+text-align: center;
+}
+
+td{
+text-align: center;
+border-bottom: 1px solid;
+border-right: 0.5px solid;
+padding: 8px 17px;
+}
+
+tbody tr:hover{
+  background-color: rgb(192, 192, 192);
+  transition: var(--transition: 0.3s ease;);
+ 
+}
+
+td:empty::before{
+  content: "-";
+  color: #ccc;
+}
